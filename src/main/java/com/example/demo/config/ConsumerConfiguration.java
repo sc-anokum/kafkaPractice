@@ -16,7 +16,7 @@ import java.util.Map;
 
 @Configuration
 @EnableKafka
-public class ConsumerConfig {
+public class ConsumerConfiguration {
 
     @Value("${kafka.alert.group.id}")
     private String ALERT_GROUP_ID;

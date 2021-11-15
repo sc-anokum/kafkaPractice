@@ -14,7 +14,7 @@ import java.util.HashMap;
 import java.util.Map;
 
 @Configuration
-public class ProducerConfig {
+public class ProducerConfiguration {
 
     @Value("${bootstrap.server}")
     private String BOOTSTRAP_ADDRESS;
